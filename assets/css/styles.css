@@ -103,16 +103,8 @@ small {
     font-family: "OpenSans sb";
     margin-bottom: 30px;
 }
-/* helping classes */
-.bg-grey {
-    background: #f6f6f6;
-}
-.bg-white {
-	background: #fff;
-}
-.text-blue {
-	color: #0099cc;
-}
+
+
 /* Navigation bar*/
 
 
@@ -433,3 +425,17 @@ h2.ourSer_h {
     font-weight: bold;
 }
 
+
+
+
+
+/* helping classes */
+.bg-grey {
+    background: #f6f6f6;
+}
+.bg-white {
+    background: #fff;
+}
+.text-blue {
+    color: #0099cc;
+}
