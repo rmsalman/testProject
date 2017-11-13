@@ -1,0 +1,435 @@
+/* Includ Fonts */
+@font-face {
+    font-family: 'OpenSans';
+    src: url("../fonts/Open_Sans/OpenSans-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans sb';
+    src: url("../fonts/Open_Sans/OpenSans-SemiBold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Open Sans Light';
+    src: url("../fonts/Open_Sans/OpenSans-Light.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto Slab Regular';
+    src: url("../fonts/Roboto_Slab/RobotoSlab-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto Slab Regular';
+    src: url("../fonts/Roboto_Slab/RobotoSlab-Regular.ttf") format('truetype');
+}
+
+
+
+
+
+
+
+
+/* best resets according to PSD */
+
+body {
+    background: white;
+    font-family: 'OpenSans';
+    font-size: 18px;
+}
+
+h2, .h2 {
+    font-size: 50px;
+    font-family: "Roboto Slab Regular";
+    text-transform: capitalize;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+small {
+    display: block;
+}
+
+/* Layouts */
+.secCat {
+    overflow: hidden;
+    padding: 30px 0px;
+}
+
+.navbar {
+    height: 98px;
+    font-size: 18px;
+    margin-bottom: 0;
+    border: 0;
+}
+
+.header {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    height: 595px;
+    overflow: hidden;
+}
+
+.upDis {
+    max-width: 235px;
+    height: 235px;
+    margin: auto;
+    background: #ea1b21;
+    border-radius: 50%;
+    font-size: 22px;
+    font-family: "OpenSans sb";
+    overflow: hidden;
+    margin-top: 16px;
+}
+.sec_article {
+    background: #fff;
+    box-shadow: 0px 2px 6px 0px #00000038;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    min-height: 200px;
+    padding-top: 38px;
+    font-size: 20px;
+    font-family: "OpenSans sb";
+    margin-bottom: 30px;
+}
+/* helping classes */
+.bg-grey {
+    background: #f6f6f6;
+}
+.bg-white {
+	background: #fff;
+}
+.text-blue {
+	color: #0099cc;
+}
+/* Navigation bar*/
+
+
+.navbar-nav li>a {
+    padding: 39px 20px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+
+.navbar-brand {
+    padding: 29px 0;
+    height: initial;
+}
+
+.navbar a {
+    font-size: 16px;
+}
+
+
+
+
+
+.navbar-nav li:last-child>a {
+    padding-right: 0;
+}
+
+/* Header */
+.header_title {
+    font-size: 36px;
+    margin-top: 125px;
+    line-height: 1;
+    margin-bottom: 20px;
+    font-family: "Roboto Slab Regular";}
+
+
+/* Header Search */
+
+.searchForm {
+    position: relative;
+    max-width: 901px;
+    margin: auto;
+}
+
+.header_desc {
+    font-size: 26px;
+    margin-bottom: 45px;
+}
+
+.searchBar {
+    border-radius: 0;
+    max-width: 901px;
+    margin: auto;
+    height: 70px;
+    padding-left: 70px;
+    font-size: 20px;
+    font-family: OpenSans sb;
+}
+.searchBar::placeholder {
+    font-size: 20px;
+}
+.searchForm_btn {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: none;
+    border: 0;
+    width: 100%;
+    max-width: 70px;
+    padding: 0;
+    text-align: center;
+}
+
+.btn_img {
+    display: inline-block;
+}
+
+.upDis img {
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.upDis_des {
+    max-width: 166px;
+    display: inline-block;
+}
+
+/* Footer */
+.footer_main {
+    overflow: hidden;
+    padding: 30px 0;
+}
+
+.footer_h {
+    margin-top: 30px;
+    margin-bottom: 55px;
+    font-family: roboto slab regular;
+    font-size: 22px;
+}
+
+.footer_ul {
+    margin-bottom: 30px;
+}
+
+.footer_h small {
+    display: block;
+    font-size: 16px;
+    color: inherit;
+}
+
+.footer_main .ico_btnz {
+    margin-bottom: 35px;
+    display: block;
+    margin-top: -10px;
+}
+
+.footer_main a {
+    color: inherit;
+    margin-bottom: 25px;
+    display: block;
+}
+
+.footer_bottom {
+    background: #313131;
+    height: 80px;
+    color: #fff;
+    line-height: 4.5;
+}
+
+.footer_btm_ul>li {
+    float: right;
+    margin-left: 25px;
+}
+
+.footer_btm_ul>li a {
+    width: 45px;
+    height: 45px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: block;
+}
+
+.footer_btm_ul {
+    margin-top: 21px;
+    overflow: hidden;
+}
+
+
+
+/* Category Section */
+
+.sec_article img {
+    margin: auto;
+}
+
+.secCat_h {
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+.secCat_all {
+    margin-top: 60px;
+}
+
+.sec_article_h {
+    font-size: inherit;
+    margin: auto;
+}
+
+/* Company */
+
+.company {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.company img {
+    margin: auto;
+}
+
+.company small {
+    display: block;
+}
+
+
+.company_info_h {
+    font-family: "Open Sans Light";
+    color: #0099cc;
+}
+
+.company_info_h small {
+    font-size: 49%;
+    font-family: "Roboto Slab Regular";
+    color: #000;
+}
+
+/* Our Services */
+.ourSer {
+	position: relative;
+	background-color: #0099cc;
+	color: white;
+	background-image: url("../images/banner_left.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+h2.ourSer_h {
+    margin-top: 75px;
+    line-height: 1;
+    margin-bottom: 25px;
+}
+
+.ourSer p {
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.ourSer article p {
+    font-size: 12px;
+}
+
+.ourSer img {
+    margin-right: 11px;
+}
+
+
+/* How It Works (hiw) */
+.hiw_article img {
+    margin: auto;
+}
+
+.hiw_article:after {
+    content: "";
+    width: 50px;
+    height: 15px;
+    background-image: url("../images/ico_right.png");
+    display: block;
+    position: absolute;
+    top: -40px;
+    bottom: 0px;
+    right: 0;
+    margin: auto;
+}
+
+.hiw_article {
+    position: relative;
+    margin-bottom: 60px;
+    margin-top: 65px;
+}
+.hiw_article_h {
+    font-size: 22px;
+    max-width: 175px;
+    margin: auto;
+}
+
+.hiw_article:last-child:after {
+    display: none;
+}
+.hiw_article:last-child .hiw_article_h {
+    max-width: 201px;
+}
+
+
+/* Advantages */
+
+
+.Adv {
+    padding: 150px 0;
+}
+
+.adv_h {
+    margin-top: 0;
+    color: #0099cc;
+    margin-bottom: 20px;
+}
+
+.adv_sm {
+    margin-top: 10px;
+    font-size: 32px;
+    color: #000;
+}
+.adv_h5 {
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-family: "Open Sans Light";
+}
+
+.adv_h5 small {
+    display: inline-block;
+}
+
+.adv_h5 img {
+    display: inline-block;
+}
+
+
+.adv_h5_img {
+    float: left;
+    margin-right: 2%;
+}
+
+/* testimonial */
+.testimonial {
+    max-width: 970px;
+    margin: auto;
+    margin-top: 115px;
+    margin-bottom: 140px;
+    box-shadow: 0px 2px 32px 4px #00000012;
+    padding: 50px 27px;
+    font-size: 16px;
+}
+.testimonial_h {
+    font-size: 16px;
+    font-weight: bold;
+}
+
