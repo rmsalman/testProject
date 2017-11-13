@@ -234,7 +234,6 @@ small {
     background: #313131;
     height: 80px;
     color: #fff;
-    line-height: 4.5;
 }
 
 .footer_btm_ul>li {
@@ -255,7 +254,12 @@ small {
     overflow: hidden;
 }
 
-
+.footer_bottom_p {
+    padding: 0;
+    margin: 0;
+    line-height: 4;
+    padding-top: 5px;
+}
 
 /* Category Section */
 
@@ -312,11 +316,12 @@ small {
 	background-image: url("../images/banner_left.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+    padding: 70px 0;
 }
 
 
-h2.ourSer_h {
-    margin-top: 75px;
+.ourSer_h {
+    margin-top: 10px;
     line-height: 1;
     margin-bottom: 25px;
 }
