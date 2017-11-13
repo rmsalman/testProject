@@ -5,6 +5,4 @@
   <dt>HTML</dt>
   <dd>Its HTML5 with Bootstrap</dd>
   <dd>SEO best practices with sementic html</dd>
-  <dt>Milk</dt>
-  <dd>White cold drink</dd>
 </dl>
