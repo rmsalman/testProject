@@ -3,6 +3,9 @@
 
 <dl>
   <dt>HTML</dt>
-  <dd>Its HTML5 with Bootstrap</dd>
-  <dd>SEO best practices with sementic html</dd>
+  <dd>Its HTML5 with SEO best practices and sementic html</dd>
+  <dt>CSS</dt>
+  <dd>CSS3 with Bootrstrap, with many great concepts like OOCS, OSMECS, TRICON, DRY, RESETS, LAYOUT FIRST. </dd>
+  <dt>JAVASCRIPT</dt>
+  <dd>Its just function based JQuery, </dd>
 </dl>
