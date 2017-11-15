@@ -890,3 +890,297 @@ h2, .h2 {
     min-height: 142px;
 }
 }
+
+
+@media screen and (max-width: 767px) {
+
+h2, .h2 {
+    font-size: 35px;
+}
+
+
+body {
+    font-size: 13px;
+}
+
+
+
+
+/* Navigation Bar */
+.navbar {
+    height: 45px;
+    z-index: 9;
+}
+
+.navbar-brand {
+    padding: initial;
+    padding-top: 10px;
+}
+
+[alt="logo"] {
+    max-width: 79%;
+}
+
+.navbar-brand {
+    width: initial;
+    display: inline-block;
+}
+
+.navbar-default .navbar-toggle {
+    margin-top: 9px;
+    border-color: #0d8fc4;
+}
+
+.icon-bar {
+    background: #0D8FC4 !important;
+}
+.navbar-default .navbar-collapse {
+    background: #0d8fc4;
+    border-top: 1px solid #ea0a0a;
+    border-bottom: 1px solid #ea0a0a;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    padding: 10px 25px;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: white;
+    padding-left: 38px;
+}
+
+
+/* footer */
+.adv_h5_img {
+    float: none;
+    display: block;
+    margin-right: initial;
+    margin-left: 0;
+}
+
+h3.adv_h5 {
+    text-align: left;
+}
+
+
+article.advArticle.col-sm-8 {
+    padding-left: 27px;
+}
+
+.Adv {
+    padding: 40px 0px;
+}
+
+.hiw_p {
+    margin-bottom: -10px;
+}
+
+.footer_h {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.footer_link {
+    margin-bottom: 10px;
+}
+
+.footer_ul>li:last-child>a {
+    margin-bottom: 0;
+}
+
+.footer_main .ico_btnz {
+    margin-bottom: 10px;
+}
+
+.footer_bottom {
+    height: initial;
+    text-align: center;
+}
+
+.footer_btm_ul {
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.footer_btm_ul>li {
+    display: inline-block;
+    float: none;
+    margin-left: 10px;
+}
+
+.footer_bottom_p {
+    padding-top: 10px;
+    font-size: 16px;
+}
+/* header */
+
+
+.header_title {
+    margin-top: 48px;
+    font-size: 16px;
+}
+.header_desc {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+
+
+.searchBar {
+    height: 50px;
+    font-size: 20px;
+}
+
+
+.searchMed_outer--show .searchMed_outer {
+    top: 50px;
+}
+
+.text-left.wd_col_link {
+    margin-top: 2px;
+}
+
+.searchMed {
+    font-size: 11px;
+}
+
+.searchMed_desc {
+    line-height: 1;
+}
+
+.calculate_ele {
+    height: 29px;
+    width: 19px;
+    font-weight: bold;
+}
+
+.btn_default {
+    height: 25px;
+    margin-top: 3px;
+    width: 82px;
+    font-size: 11px;
+}
+
+.wd_row {
+    height: 51px;
+}
+
+.searchMed_outer--show .searchMed_outer {
+    padding-top: 5px;
+}
+.upDis_img {
+    max-width: 42px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.upDis {
+    height: 135px;
+    width: 135px;
+    font-size: 15px;
+}
+
+.upDis_img {
+    max-width: 42px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.header {
+    height: 370px;
+}
+
+.searchMed {
+    height: 171px;
+}
+
+
+
+
+.secCat {
+    padding: 5px 0px;
+}
+
+.secCat_all {
+    margin-top: 30px;
+}
+
+.sec_article_a {}
+
+.sec_article {
+    min-height: 153px;
+    font-size: 16px;
+}
+
+.sec_article_h {
+    min-height: initial;
+}
+
+.h2.company_info_h {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.ourSer {
+    background-position: 64% 0px;
+    background-image: none;
+    padding: 0px;
+}
+
+.ourSer_contentBox {
+    width: initial;
+}
+
+.ourSer_p {
+    margin-bottom: 45px;
+    padding: 0;
+}
+
+.ourSer {
+    background-position: 64% 0px;
+    background-image: none;
+    padding: 0px;
+}
+
+.ourSer_contentBox {
+    width: initial;
+}
+
+.ourSer_p {
+    margin-bottom: 45px;
+    padding: 0;
+}
+
+.owl-carousel .owl-item img {
+    max-width: 122px;
+}
+
+.testimonial {
+    font-size: inherit;
+}
+
+blockquote:after {position: relative;top: 8px;}
+
+.owl-dots {
+    bottom: 18px;
+}
+.company {
+    padding: 10px 0;
+}
+.testimonial {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.testimonial_h {
+    font-size: 13px;
+}
+.Adv {
+    padding: 40px 0px;
+}
+.hiw_p {
+    margin-bottom: -10px;
+}
+}
+
