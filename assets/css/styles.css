@@ -738,14 +738,8 @@ blockquote:after {
 
 
 /* Media screens for Responsiveness */
-@media screen and (max-width: 1070px) {
+@media screen and (max-width: 1200px) {
 
-.header_title {
-    font-size: 30px;
-}
-.header_desc {
-    font-size: 21px;
-    }
 .ourSer {   
     background-position: 50% 0px;
     background-size: cover;
@@ -761,29 +755,115 @@ h2, .h2 {
     font-size: 16px;
     box-shadow: none;
 }
-}
-@media screen and (max-width: 992px) {
+
 .ourSer_h3 {
-    font-size: 21px
+    font-size: 22px;
 }
-.adv_h5 {
-    font-size: 12px;
-}
-.adv_sm {
-    font-size: 24px;
-}
-.ourSer_h3 {
-    font-size: 21px;
-}
+
+
 
 .adv_h {
     font-size: 29px;
 }
+.adv_sm {
+    font-size: 27px;
+}
+
+.adv_h5 {
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+
+.advArticle {
+    padding-right: 0;
+}
+
+.advArticle .col-sm-3 {
+    padding: 0 2px;
+}
+
+
+.adv_sm {
+    font-size: 27px;
+}
+
+.advArticle>div:first-child .adv_h5 {
+    margin-bottom: 9px;
+}
+}
+@media screen and (max-width: 992px) {
+
+.header_title {
+    font-size: 30px;
+}
+.header_desc {
+    font-size: 21px;
+    }
+
 .sec_article_a {
     display: block;
     padding: 0;
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.wd_col_2 {
+    width: 13%;
+}
+.wd_col_3 {
+    width: 17%;
+}
+.searchMed {
+    font-size: 20px;
+}
+.sec_article {
+    min-height: 170px;
+    font-size: 18px;
+}
 
+/* our services */
+.ourSer_contentBox--space {
+    max-width: 49%;
+}
+
+.ourSer_contentBox {
+    width: 51%;
+}
+
+.ourSer {
+    background-position: 57% 0px;
+}
+.ourSer_h3 {
+    font-size: 21px;
+}
+
+.ourSer_h3 {
+    font-size: 21px
+}
+
+/* Advertise */
+.adv_h5 {
+    font-size: 12px;
+}
+.adv_sm {
+    font-size: 24px;
+}
+
+
+/* How it Works  */
+
+.hiw_article_h {
+    font-size: 18px;
+    }
+.footer_bottom_p {
+    font-size: 18px;
+}
+.hiw_article {
+    min-height: 128px;
+    margin-bottom: 45px;
+    margin-top: 50px;
+}
+.hiw_article:after {
+    right: -8%;
+}
 }
