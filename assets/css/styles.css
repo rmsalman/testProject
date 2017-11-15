@@ -846,7 +846,7 @@ h2, .h2 {
     font-size: 12px;
 }
 .adv_sm {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 
@@ -865,5 +865,28 @@ h2, .h2 {
 }
 .hiw_article:after {
     right: -8%;
+}
+
+
+/* Advantages */
+.adv_p {
+    font-size: 15px;
+}
+}
+
+
+@media screen and (max-width: 992px) {
+
+/* How it Works  */
+.hiw_article:after {
+    right: 0;
+    left: 0;
+    transform: rotate(90deg);
+    top: initial;
+    bottom: -28px;
+}
+
+.hiw_article {
+    min-height: 142px;
 }
 }
