@@ -10,3 +10,5 @@
   <dt>JAVASCRIPT</dt>
   <dd>Its just function based JQuery, </dd>
 </dl>
+
+<p>	<center>There are 2 different versions in it like minified(for user) which is index.html  other is index-dev.html which is for code checker</center></p>
