@@ -300,6 +300,12 @@ blockquote:after {
 .navbar-nav li>a {
     padding: 39px 20px;
 }
+.navbar-nav li li>a {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
 .navbar-default .navbar-nav>li>a {
     color: #000;
 }
@@ -878,13 +884,7 @@ h2, .h2 {
 @media screen and (max-width: 992px) {
 
 /* How it Works  */
-.hiw_article:after {
-    right: 0;
-    left: 0;
-    transform: rotate(90deg);
-    top: initial;
-    bottom: -28px;
-}
+
 
 .hiw_article {
     min-height: 142px;
@@ -902,9 +902,6 @@ h2, .h2 {
 body {
     font-size: 13px;
 }
-
-
-
 
 /* Navigation Bar */
 .navbar {
@@ -1107,8 +1104,6 @@ article.advArticle.col-sm-8 {
     margin-top: 30px;
 }
 
-.sec_article_a {}
-
 .sec_article {
     min-height: 153px;
     font-size: 16px;
@@ -1182,5 +1177,53 @@ blockquote:after {position: relative;top: 8px;}
 .hiw_p {
     margin-bottom: -10px;
 }
+.advArticle .col-sm-3 {
+    width: 50%;
+    float: left;
+}
+.hiw_article:after {
+    right: 0;
+    left: 0;
+    transform: rotate(90deg);
+    top: initial;
+    bottom: -28px;
+}
 }
 
+@media screen and (max-width: 415px) {
+.header_desc {
+    font-size: 12px;
+}
+.searchMed {
+    font-size: 9px;
+}
+
+.searchMed_desc {
+    font-size: 10px;
+}
+
+.wd_col_2 {
+    width: 11%;
+}
+
+.wd_col_3 {
+    width: 14%;
+}
+
+.wd_col_1 {
+    width: 27%;
+}
+
+.btn_default {
+    width: 50px;
+    padding: 0;
+}
+
+.wd_col_4 {
+    width: 28%;
+}
+
+.calculate_ele {
+    width: 20px;
+}
+}
