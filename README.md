@@ -4,7 +4,7 @@
 <dl>
   <dt>HTML</dt>
   <dd>Its HTML5 with SEO best practices and sementic html</dd>
-  <td>Html is validated by w3 Validator</td>
+  <dd>Html is validated by w3 Validator</dd>
   <dt>CSS</dt>
   <dd>CSS3 with Bootrstrap, with many great concepts like OOCS, OSMECS, TRICON, DRY(Moduler), RESETS, LAYOUT FIRST. </dd>
   <dt>JAVASCRIPT</dt>
