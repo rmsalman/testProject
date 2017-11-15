@@ -264,8 +264,9 @@ blockquote:after {
 }
 .sec_article {
     background: #fff;
-    -webkit-box-shadow: 0px 2px 6px 0px #00000038;
-            box-shadow: 0px 2px 6px 0px #00000038;
+    -moz-box-shadow: 0px 2px 6px 0px #cdcdcd;
+    -webkit-box-shadow: 0px 2px 6px 0px #cdcdcd;
+            box-shadow: 0px 2px 6px 0px #cdcdcd;
     border: 1px solid transparent;
     border-radius: 4px;
     min-height: 200px;
@@ -279,8 +280,8 @@ blockquote:after {
     margin: auto;
     margin-top: 115px;
     margin-bottom: 140px;
-    -webkit-box-shadow: 0px 2px 34px 4px #0000002e;
-            box-shadow: 0px 2px 34px 4px #0000002e;
+    -webkit-box-shadow: 0px 2px 34px 4px #e1e1e1;
+            box-shadow: 0px 2px 34px 4px #e1e1e1;
     padding: 37px 27px;
     font-size: 16px;
 }
@@ -434,6 +435,7 @@ blockquote:after {
 }
 .searchMed_outer--show .searchMed_outer {
     opacity: 1;
+    position: static;
     top: 70px;
     -webkit-transition: all 0.4s;
     transition: all 0.4s;

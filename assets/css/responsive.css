@@ -53,6 +53,16 @@
     .advArticle>div:first-child .adv_h5 {
         margin-bottom: 9px;
     }
+
+    .wd_col_2 {
+        width: 13%;
+    }
+    .wd_col_3 {
+        width: 16%;
+    }
+    .wd_col_4 {
+        width: 21%;
+    }
 }
 
 
@@ -70,12 +80,6 @@
         padding: 0;
         padding-top: 10px;
         padding-bottom: 10px;
-    }
-    .wd_col_2 {
-        width: 13%;
-    }
-    .wd_col_3 {
-        width: 17%;
     }
     .searchMed {
         font-size: 20px;
